@@ -1,0 +1,133 @@
+Section Control: sıc/xe'de USE
+.bss (boşluk ayırma ve içine 0 yazma örn-Space)
+.data (ltorg gibi literal havuzu sadece veriler var)
+.intvec ()
+.sect 
+.text
+.usect
+
+Group Control:
+.group
+.gmember
+.endgroup
+
+Unused Section Elimination:
+.retain
+.retainrefs
+
+Value Initialization:   literaller 4 farklı şekilde olur(1-)
+.bits
+.byte
+.char
+.cstring
+.double
+.field
+.float
+.half
+.int
+.long
+.short
+.string
+.ubyte
+.uchar
+.uhalf
+.uint
+.ulong
+.ushort
+.uword
+.word
+
+Alignment and Space:
+.align
+.bes
+.space
+
+Output Formatting:
+.drlist
+.drnolist
+.fclist
+.fcnolist
+.length
+.list
+.mlist
+.mnolist
+.nolist
+.option
+.page
+.sslist
+.ssnolist
+.tab
+.title
+.width
+
+File Reference:
+.copy
+.include
+.mlib
+
+Symbol Visibility:
+.common
+.def
+.global
+.ref
+.weak
+
+Conditional Assembly:
+.if
+.else
+.elseif
+.endif
+
+Structures:
+.struct
+.endstruct
+.tag
+
+Enumerated Types:
+.enum
+.emember
+.endenum
+
+Assembly-Time Symbols:
+.asg
+.define
+.equ
+.elfsym
+.eval
+.label
+.newblock
+.set
+.unasg
+.undefine
+
+Macro Support:
+.macro
+.endm
+.mexit
+.var
+
+Diagnostics:
+.emsg
+.mmsg
+.wmsg
+
+Debug Support:
+.line
+.func
+.endfunc
+.asmfunc
+.endasmfunc
+
+Absolute Lister:
+.endln
+.ln
+.mn
+.nref
+.xlist
+
+Miscellaneous:
+.version
+.end
+.exit
+.title
+.sbttl
